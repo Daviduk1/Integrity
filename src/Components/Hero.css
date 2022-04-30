@@ -1,0 +1,21 @@
+.herosection .btn {
+        width: 150px;
+        background-image: linear-gradient( to top left, #ee672f 0%, #d23a26 100%);
+        color: white;
+    
+}
+
+.herosection {
+    background-image: linear-gradient(#fffcf7 0%, rgb(255, 252, 247, 0) 100%);
+    
+}
+
+@media only screen and (max-width: 768px) {
+    #heroImages img {
+        padding: 15px;
+    }
+}
+
+.mr h1 {
+    font-size: 40px;
+}

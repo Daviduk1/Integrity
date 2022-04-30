@@ -1,0 +1,11 @@
+.navbar {
+  box-shadow: 0 0 15px  rgba(0,0,0,.1);
+}
+
+.navbar .btn {
+    width: 120px;
+    background-image: linear-gradient( to top left, #ee672f 0%, #d23a26 100%);
+    color: white;
+    outline: none;
+    border: none;
+}

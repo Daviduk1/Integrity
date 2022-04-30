@@ -1,0 +1,26 @@
+.commit {
+    height: 100%;
+    background-image: linear-gradient( rgba(241, 241, 241, 0.25) 0%, rgba(241, 241, 241, 0) 100%);
+    padding-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    #effectivecard {
+        max-width: 100%;
+        
+        position: relative !important;
+        top: 4rem !important;
+        left: 4.5rem;
+       
+    }
+
+    #intergrity {
+        position: relative;
+        left: 4.5rem;
+    }
+
+    #mobile {
+        text-align: center;
+    }
+
+}

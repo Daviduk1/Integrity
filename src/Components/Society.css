@@ -1,0 +1,67 @@
+.gensoc {
+    background-color: #1B1525;
+    margin-top: 5rem;
+    padding-top: 2rem;
+}
+
+#society {
+    width: 60%;
+    max-width: 100%;
+    border: 2px solid #F7F7F966;
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 3rem
+}
+
+#society .btn {
+    width: 120px;
+    background-image: linear-gradient(#ee672f 0%, #d23a2c);
+}
+
+#footerlinks ul {
+    padding: 0px;
+}
+
+#footerlinks ul li a{
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+#footerlinks ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+#footerlinks img {
+    padding-right: 10px;
+}
+
+.social ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+/* #footerlinks {
+    
+    padding: 2rem 5rem;
+} */
+
+@media only screen and (max-width:768px) {
+    
+        #society {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+    
+        }
+
+        #footerlinks {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 0px 20px !important;
+        }
+    
+}

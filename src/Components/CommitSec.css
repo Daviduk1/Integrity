@@ -1,0 +1,30 @@
+/* .commitsec {
+    height: 30vh;
+    max-height: 100%;
+    background-image: linear-gradient( rgba(241, 241, 241, 0.25) 0%, rgba(241, 241, 241, 0) 100%);
+    
+    margin-bottom: 2rem;
+
+} */
+
+@media only screen and (max-width:768px) {
+    #integrityy {
+        position: sticky;
+        margin-top: 13rem;
+        padding-left: 4.5rem;
+        
+    }
+
+    #influence {
+        position: relative;
+        top: 12rem;
+    }
+
+    #influence h1, img {
+        text-align: center;
+    }
+    #influence img {
+        position: relative;
+        padding-left: 7.5rem;
+    }
+}
